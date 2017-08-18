@@ -3,7 +3,7 @@
 from os import listdir, mkdir, system
 from os.path import isfile, isdir, join, exists
 
-dir = 'mitdb/'
+dir = 'ediagnostic/wfdb/'#'mitdb/'
 #Create folder
 dir_out = dir + 'csv/'
 if not exists(dir_out):
